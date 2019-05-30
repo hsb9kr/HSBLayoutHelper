@@ -1,0 +1,16 @@
+PODS:
+  - HSBLayoutHelper (0.1.0)
+
+DEPENDENCIES:
+  - HSBLayoutHelper (from `../`)
+
+EXTERNAL SOURCES:
+  HSBLayoutHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSBLayoutHelper: a50942b0de9770a1b6167b38a17dc072d3e51499
+
+PODFILE CHECKSUM: 9b8cbaa1adc4b0b0990bd7cbbc2d2500206d1d33
+
+COCOAPODS: 1.6.1

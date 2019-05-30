@@ -1,0 +1,6 @@
+framework module Pods_HSBLayoutHelper_Tests {
+  umbrella header "Pods-HSBLayoutHelper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
