@@ -16,11 +16,11 @@
 		AF7C203C865EC4E6A6AEBDA93EE49EE3 /* HSBDeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B81BE9037E441D03783C430A14A713 /* HSBDeviceHelper.swift */; };
 		B6984B13C39790C902F52ED6EAC50432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		C1101AFB9627C45A4917C64632A9B284 /* Pods-HSBLayoutHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 880CEBB203CAE8C64730F409514B9836 /* Pods-HSBLayoutHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC14C2F3229F828A00A58FF9 /* HSBNSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14C2F2229F828A00A58FF9 /* HSBNSLayoutConstraint+Extension.swift */; };
-		CC14C2F5229F88B100A58FF9 /* HSBUIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14C2F4229F88B100A58FF9 /* HSBUIButton+Extension.swift */; };
-		CC14C2F7229F890D00A58FF9 /* HSBUILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14C2F6229F890D00A58FF9 /* HSBUILabel+Extension.swift */; };
-		CC14C2F9229F894000A58FF9 /* HSBUITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14C2F8229F894000A58FF9 /* HSBUITextField+Extension.swift */; };
-		CC14C2FB229F89AE00A58FF9 /* HSBUITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14C2FA229F89AE00A58FF9 /* HSBUITextView+Extension.swift */; };
+		CC84CD43229F97C400940D10 /* HSBUITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC84CD3E229F97C400940D10 /* HSBUITextView+Extension.swift */; };
+		CC84CD44229F97C400940D10 /* HSBNSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC84CD3F229F97C400940D10 /* HSBNSLayoutConstraint+Extension.swift */; };
+		CC84CD45229F97C400940D10 /* HSBUILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC84CD40229F97C400940D10 /* HSBUILabel+Extension.swift */; };
+		CC84CD46229F97C400940D10 /* HSBUIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC84CD41229F97C400940D10 /* HSBUIButton+Extension.swift */; };
+		CC84CD47229F97C400940D10 /* HSBUITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC84CD42229F97C400940D10 /* HSBUITextField+Extension.swift */; };
 		E9F5F21E15C7C7F6E59F0803BF428850 /* Pods-HSBLayoutHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23F4C7509754D261B992A24691EA29 /* Pods-HSBLayoutHelper_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -71,11 +71,11 @@
 		B4DDF7D5635FFB90F781A08C906E8F6E /* HSBLayoutHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HSBLayoutHelper-Info.plist"; sourceTree = "<group>"; };
 		B9F060926AFA36E410B3DC5C118D2448 /* Pods-HSBLayoutHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBLayoutHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC14C2F2229F828A00A58FF9 /* HSBNSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSBNSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
-		CC14C2F4229F88B100A58FF9 /* HSBUIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSBUIButton+Extension.swift"; sourceTree = "<group>"; };
-		CC14C2F6229F890D00A58FF9 /* HSBUILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSBUILabel+Extension.swift"; sourceTree = "<group>"; };
-		CC14C2F8229F894000A58FF9 /* HSBUITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSBUITextField+Extension.swift"; sourceTree = "<group>"; };
-		CC14C2FA229F89AE00A58FF9 /* HSBUITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSBUITextView+Extension.swift"; sourceTree = "<group>"; };
+		CC84CD3E229F97C400940D10 /* HSBUITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HSBUITextView+Extension.swift"; path = "HSBLayoutHelper/Classes/HSBUITextView+Extension.swift"; sourceTree = "<group>"; };
+		CC84CD3F229F97C400940D10 /* HSBNSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HSBNSLayoutConstraint+Extension.swift"; path = "HSBLayoutHelper/Classes/HSBNSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		CC84CD40229F97C400940D10 /* HSBUILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HSBUILabel+Extension.swift"; path = "HSBLayoutHelper/Classes/HSBUILabel+Extension.swift"; sourceTree = "<group>"; };
+		CC84CD41229F97C400940D10 /* HSBUIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HSBUIButton+Extension.swift"; path = "HSBLayoutHelper/Classes/HSBUIButton+Extension.swift"; sourceTree = "<group>"; };
+		CC84CD42229F97C400940D10 /* HSBUITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HSBUITextField+Extension.swift"; path = "HSBLayoutHelper/Classes/HSBUITextField+Extension.swift"; sourceTree = "<group>"; };
 		D66D42842E8A1BA3AC6544A510B81D49 /* Pods-HSBLayoutHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBLayoutHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D86B9A1A462C9DF4A3214680A3E1616F /* Pods-HSBLayoutHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSBLayoutHelper_Example.modulemap"; sourceTree = "<group>"; };
 		FC45C56492D46DDD22F4200EB6243050 /* Pods-HSBLayoutHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBLayoutHelper_Example-dummy.m"; sourceTree = "<group>"; };
@@ -172,12 +172,12 @@
 		7E156D7FEA6879B4C6AE32B823EC9102 /* HSBLayoutHelper */ = {
 			isa = PBXGroup;
 			children = (
+				CC84CD3F229F97C400940D10 /* HSBNSLayoutConstraint+Extension.swift */,
+				CC84CD41229F97C400940D10 /* HSBUIButton+Extension.swift */,
+				CC84CD40229F97C400940D10 /* HSBUILabel+Extension.swift */,
+				CC84CD42229F97C400940D10 /* HSBUITextField+Extension.swift */,
+				CC84CD3E229F97C400940D10 /* HSBUITextView+Extension.swift */,
 				55B81BE9037E441D03783C430A14A713 /* HSBDeviceHelper.swift */,
-				CC14C2F2229F828A00A58FF9 /* HSBNSLayoutConstraint+Extension.swift */,
-				CC14C2F4229F88B100A58FF9 /* HSBUIButton+Extension.swift */,
-				CC14C2F6229F890D00A58FF9 /* HSBUILabel+Extension.swift */,
-				CC14C2F8229F894000A58FF9 /* HSBUITextField+Extension.swift */,
-				CC14C2FA229F89AE00A58FF9 /* HSBUITextView+Extension.swift */,
 				685EB113DC9637AA4E9CF42EB4C4C8B3 /* Pod */,
 				7B2DF9684D4F1A0849FEA885AD2A3C3C /* Support Files */,
 			);
@@ -401,12 +401,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC14C2FB229F89AE00A58FF9 /* HSBUITextView+Extension.swift in Sources */,
-				CC14C2F3229F828A00A58FF9 /* HSBNSLayoutConstraint+Extension.swift in Sources */,
-				CC14C2F5229F88B100A58FF9 /* HSBUIButton+Extension.swift in Sources */,
-				CC14C2F7229F890D00A58FF9 /* HSBUILabel+Extension.swift in Sources */,
-				CC14C2F9229F894000A58FF9 /* HSBUITextField+Extension.swift in Sources */,
+				CC84CD43229F97C400940D10 /* HSBUITextView+Extension.swift in Sources */,
+				CC84CD44229F97C400940D10 /* HSBNSLayoutConstraint+Extension.swift in Sources */,
+				CC84CD47229F97C400940D10 /* HSBUITextField+Extension.swift in Sources */,
 				3034F2C274564C92E5B8FB0EBAD8D669 /* HSBLayoutHelper-dummy.m in Sources */,
+				CC84CD46229F97C400940D10 /* HSBUIButton+Extension.swift in Sources */,
+				CC84CD45229F97C400940D10 /* HSBUILabel+Extension.swift in Sources */,
 				AF7C203C865EC4E6A6AEBDA93EE49EE3 /* HSBDeviceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
