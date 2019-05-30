@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSBLayoutHelper_Example' do
+  pod 'HSBLayoutHelper', :path => '../'
+
+  target 'HSBLayoutHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
