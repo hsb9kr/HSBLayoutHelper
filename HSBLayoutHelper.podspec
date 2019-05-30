@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSBLayoutHelper'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Layout helper.'
   s.swift_version    = '5.0'
 
