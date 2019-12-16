@@ -78,18 +78,24 @@ public enum Model : String {
 	iPad4              = "iPad 4",
 	iPadAir            = "iPad Air ",
 	iPadAir2           = "iPad Air 2",
+    iPadAir3           = "iPad Air 3",
 	iPad5              = "iPad 5", //aka iPad 2017
 	iPad6              = "iPad 6", //aka iPad 2018
+    iPad7              = "iPad 7",
 	//iPad mini
 	iPadMini           = "iPad Mini",
 	iPadMini2          = "iPad Mini 2",
 	iPadMini3          = "iPad Mini 3",
 	iPadMini4          = "iPad Mini 4",
+    iPadMini5          = "iPad Mini 5",
+    
 	//iPad pro
 	iPadPro9_7         = "iPad Pro 9.7\"",
 	iPadPro10_5        = "iPad Pro 10.5\"",
+    iPadPro11          = "iPad Pro 11\"",
 	iPadPro12_9        = "iPad Pro 12.9\"",
 	iPadPro2_12_9      = "iPad Pro 2 12.9\"",
+    iPadPro3_12_9      = "iPad Pro 3 12.9\"",
 	//iPhone
 	iPhone4            = "iPhone 4",
 	iPhone4S           = "iPhone 4S",
@@ -109,6 +115,9 @@ public enum Model : String {
 	iPhoneXS           = "iPhone XS",
 	iPhoneXSMax        = "iPhone XS Max",
 	iPhoneXR           = "iPhone XR",
+    iPhone11           = "iPhone 11",
+    iPhone11Pro        = "iPhone 11 Pro",
+    iPhone11ProMax     = "iPhone 11 Pro Max",
 	//Apple TV
 	AppleTV            = "Apple TV",
 	AppleTV_4K         = "Apple TV 4K",
@@ -124,7 +133,7 @@ public extension UIDevice {
 				
 			}
 		}
-		var modelMap : [ String : Model ] = [
+		let modelMap : [ String : Model ] = [
 			"i386"      : .simulator,
 			"x86_64"    : .simulator,
 			//iPod
@@ -144,15 +153,25 @@ public extension UIDevice {
 			"iPad3,4"   : .iPad4,
 			"iPad3,5"   : .iPad4,
 			"iPad3,6"   : .iPad4,
+            "iPad6,11"  : .iPad5,
+            "iPad6,12"  : .iPad5,
+            "iPad7,5"   : .iPad6,
+            "iPad7,6"   : .iPad6,
+            "iPad7,11"  : .iPad7,
+            "iPad7,12"  : .iPad7,
 			"iPad4,1"   : .iPadAir,
 			"iPad4,2"   : .iPadAir,
 			"iPad4,3"   : .iPadAir,
 			"iPad5,3"   : .iPadAir2,
 			"iPad5,4"   : .iPadAir2,
+            "iPad11,3"  : .iPadAir3,
+            "iPad11,4"  : .iPadAir3,
+            
 			"iPad6,11"  : .iPad5, //aka iPad 2017
 			"iPad6,12"  : .iPad5,
 			"iPad7,5"   : .iPad6, //aka iPad 2018
 			"iPad7,6"   : .iPad6,
+            
 			//iPad mini
 			"iPad2,5"   : .iPadMini,
 			"iPad2,6"   : .iPadMini,
@@ -165,15 +184,25 @@ public extension UIDevice {
 			"iPad4,9"   : .iPadMini3,
 			"iPad5,1"   : .iPadMini4,
 			"iPad5,2"   : .iPadMini4,
+            "iPad11,1"  : .iPadMini5,
+            "iPad11,2"  : .iPadMini5,
+            
 			//iPad pro
 			"iPad6,3"   : .iPadPro9_7,
 			"iPad6,4"   : .iPadPro9_7,
 			"iPad7,3"   : .iPadPro10_5,
 			"iPad7,4"   : .iPadPro10_5,
+            "iPad8,1"   : .iPadPro11,
+            "iPad8,2"   : .iPadPro11,
+            "iPad8,3"   : .iPadPro11,
+            "iPad8,4"   : .iPadPro11,
 			"iPad6,7"   : .iPadPro12_9,
 			"iPad6,8"   : .iPadPro12_9,
 			"iPad7,1"   : .iPadPro2_12_9,
-			"iPad7,2"   : .iPadPro2_12_9,
+            "iPad7,2"   : .iPadPro2_12_9,
+            "iPad8,7"   : .iPadPro3_12_9,
+            "iPad8,8"   : .iPadPro3_12_9,
+            
 			//iPhone
 			"iPhone3,1" : .iPhone4,
 			"iPhone3,2" : .iPhone4,
@@ -204,6 +233,9 @@ public extension UIDevice {
 			"iPhone11,4" : .iPhoneXSMax,
 			"iPhone11,6" : .iPhoneXSMax,
 			"iPhone11,8" : .iPhoneXR,
+            "iPhone12,1" : .iPhone11,
+            "iPhone12,3" : .iPhone11Pro,
+            "iPhone12,5" : .iPhone11ProMax,
 			//AppleTV
 			"AppleTV5,3" : .AppleTV,
 			"AppleTV6,2" : .AppleTV_4K
